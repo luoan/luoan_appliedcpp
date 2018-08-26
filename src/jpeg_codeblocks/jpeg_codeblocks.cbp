@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="jpeg_codeblocks" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/jpeg_codeblocks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/jpeg_codeblocks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../alloctmpl.hpp" />
+		<Unit filename="../geometry.cpp" />
+		<Unit filename="../geometry.h" />
+		<Unit filename="../image.h" />
+		<Unit filename="../imagestorage.cpp" />
+		<Unit filename="../imagestorage.h" />
+		<Unit filename="../imagestoragetmpl.hpp" />
+		<Unit filename="../imagetmpl.cpp" />
+		<Unit filename="../imagetmpl.h" />
+		<Unit filename="../imagetypes.cpp" />
+		<Unit filename="../imagetypes.h" />
+		<Unit filename="../io.cpp" />
+		<Unit filename="../io.h" />
+		<Unit filename="../jpeg.cpp" />
+		<Unit filename="../jpeg.h" />
+		<Unit filename="../lock.cpp" />
+		<Unit filename="../lock.h" />
+		<Unit filename="../main.cpp" />
+		<Unit filename="../ptr.hpp" />
+		<Unit filename="../thread.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

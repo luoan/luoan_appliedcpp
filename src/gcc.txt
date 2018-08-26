@@ -1,0 +1,2 @@
+g++ main.cpp alloctmpl.hpp geometry.cpp geometry.h image.h imagestorage.h imagestorage.cpp imagestoragetmpl.hpp imagetmpl.cpp imagetmpl.h imagetypes.cpp imagetypes.h io.h io.cpp jpeg.h jpeg.cpp lock.h lock.cpp ptr.hpp -I ../jpeglib/include  -L ../jpeglib/lib  -ljpeg  -pthread
+

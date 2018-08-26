@@ -1,0 +1,9 @@
+aux_source_directory (. DIR_LIB_SRCS)
+
+#add_library(rgbfunctions geometry.cpp imagestorage.cpp imagetmpl.cpp imagetypes.cpp lock.cpp  )
+
+#link_directories("/home/luoan/luoan_appliedcpp/jpeglib/lib")
+include_directories("/home/luoan/luoan_appliedcpp/jpeglib/include")
+
+
+add_library (rgbfunctions ${DIR_LIB_SRCS})

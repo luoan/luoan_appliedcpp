@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1532003111 source:/home/luoan/luoan_appliedcpp/src/geometry.cpp
+	"geometry.h"
+	<iostream>
+
+1532665231 /home/luoan/luoan_appliedcpp/src/geometry.h
+	<iostream>
+	<utility>
+
+1534173227 source:/home/luoan/luoan_appliedcpp/src/imagestorage.cpp
+	"imagestorage.h"
+	<stdexcept>
+	<string.h>
+	<iostream>
+
+1534173108 /home/luoan/luoan_appliedcpp/src/imagestorage.h
+	"geometry.h"
+	"alloctmpl.hpp"
+	"lock.h"
+
+1534171787 /home/luoan/luoan_appliedcpp/src/alloctmpl.hpp
+	"ptr.hpp"
+	"lock.h"
+	<stdint.h>
+	<algorithm>
+	<iostream>
+
+1534173302 /home/luoan/luoan_appliedcpp/src/ptr.hpp
+	"lock.h"
+	<stddef.h>
+	<stdexcept>
+	<iostream>
+
+1531705958 /home/luoan/luoan_appliedcpp/src/lock.h
+	<pthread.h>
+
+1532937305 source:/home/luoan/luoan_appliedcpp/src/imagetmpl.cpp
+	"imagetmpl.h"
+	<string.h>
+
+1534149586 /home/luoan/luoan_appliedcpp/src/imagetmpl.h
+	"imagetypes.h"
+	"imagestoragetmpl.hpp"
+
+1534147671 /home/luoan/luoan_appliedcpp/src/imagetypes.h
+	"geometry.h"
+	<iostream>
+
+1533688990 /home/luoan/luoan_appliedcpp/src/imagestoragetmpl.hpp
+	"imagestorage.h"
+	<string.h>
+	<typeinfo>
+	<iterator>
+
+1532869374 source:/home/luoan/luoan_appliedcpp/src/imagetypes.cpp
+	"imagetypes.h"
+	<float.h>
+	<limits.h>
+
+1534072391 source:/home/luoan/luoan_appliedcpp/src/io.cpp
+	"io.h"
+	<sstream>
+
+1533966987 /home/luoan/luoan_appliedcpp/src/io.h
+	"image.h"
+	<string>
+	<map>
+	<iostream>
+
+1533709458 /home/luoan/luoan_appliedcpp/src/image.h
+	"imagetmpl.h"
+	"imagetypes.h"
+
+1534167863 source:/home/luoan/luoan_appliedcpp/src/jpeg.cpp
+	"jpeg.h"
+	<stdio.h>
+	<iostream>
+	"jpeglib.h"
+
+1534133576 /home/luoan/luoan_appliedcpp/src/jpeg.h
+	"io.h"
+
+1531711142 source:/home/luoan/luoan_appliedcpp/src/lock.cpp
+	"lock.h"
+
+1534172884 source:/home/luoan/luoan_appliedcpp/src/main.cpp
+	"image.h"
+	"jpeg.h"
+	<iostream>
+
