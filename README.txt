@@ -6,6 +6,8 @@
 
 jpeglib是编译安装的jpeg-9c的静态库和头文件
 
+src目录中的codeblocks是当时调试代码时用codeblocks调试所得
+
 文件全部小写，对象名称与书本代码一样
 
 gcc.txt 编译命令
