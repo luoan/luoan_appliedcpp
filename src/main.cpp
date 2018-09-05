@@ -87,8 +87,8 @@ int main()
 
   //std::cout << "hehe\n";
   //apImageIODelegateList::gOnly().setDelegate("jpg", &apJPEG::gOnly());
-  //加了这句话居然再这句话之前调用了installler，不加又会报错，草拟马
-  //草拟马，应该是CMAKE代码写的哪里有错误，直接用g++就不需要，可以直接运行，草拟马
+  //加了这句话居然再这句话之前调用了installler，不加又会报错
+  //应该是CMakeLists.txt代码写的哪里有错误，直接用g++就不需要，可以直接运行，
   //std::cout << "hehe\n";
   delegate = apImageIODelegateList::gOnly().getDelegate("jpg");
 
